@@ -50,7 +50,7 @@ Note that (similar to mutate and other tidyverse functions), the column names do
 
 ``` r
 # both calls below have the same result, you can use the one that makes most sense
-income = income_raw %>% gather(U.S.:Europe, key=country, value=income_topdecide)
+income = income_raw %>% gather(U.S.:Europe, key=country, value=income_topdecile)
 income = income_raw %>% gather(-Year, key=country, value=income_topdecile)  
 income
 ```
